@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: strkitN
+Version: 0.1.0
+Summary: A string manipulation package with additional features
+Home-page: https://github.com/Swish78/strkitN
+Author: Swayam Patil
+Author-email: swayampatil7803@gmail.com
+License: MIT
+Keywords: string manipulation utilities
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+strkitN is a Python package that provides various string manipulation functions 
+                        along with additional features such as palindrome detection, substring operations, 
+                        and more.
+

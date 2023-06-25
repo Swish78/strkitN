@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+strkitN/strkitN.py
+strkitN.egg-info/PKG-INFO
+strkitN.egg-info/SOURCES.txt
+strkitN.egg-info/dependency_links.txt
+strkitN.egg-info/entry_points.txt
+strkitN.egg-info/requires.txt
+strkitN.egg-info/top_level.txt

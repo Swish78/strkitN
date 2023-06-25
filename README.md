@@ -8,18 +8,45 @@ strkitN is a powerful and versatile Python package for string manipulation, prov
 
 **Key Features:**
 
-- String Formatting: Perform advanced formatting operations on strings, including substitution, padding, alignment, and more.
-- Substring Extraction: Extract substrings from strings based on specific patterns, indices, or delimiters.
-- Case Manipulation: Convert strings to different case formats, such as lowercase, uppercase, title case, and more.
-- Punctuation Removal: Remove punctuation marks from strings to clean and sanitize text data.
-- Length Calculation: Determine the length of strings, providing insights into their size and character count.
-- Alphanumeric Validation: Check if a string consists of alphanumeric characters only, assisting in data validation tasks.
-- Numeric Verification: Identify whether a string represents a valid numeric value, aiding in numeric data processing.
-- Frequency Analysis: Calculate the frequency of characters or words within a string, enabling statistical analysis.
-- Text Reversal: Reverse the order of characters within a string, useful for generating palindromes or text transformations.
-- Substring Conversion: Replace specific substrings within a string, facilitating efficient text replacements.
+1. Formatting:
+   - `capitalize_first`: Capitalizes the first letter of a string.
+   - `snake_case`: Converts a string to snake case.
+   - `camel_case`: Converts a string to camel case.
 
-With strkitN, you can simplify complex string manipulation tasks, streamline data preprocessing, and enhance your text processing workflows. Whether you're working on natural language processing, data cleaning, or general-purpose string operations, strkitN provides the tools you need to manipulate strings effortlessly.
+2. Searching and Replacing:
+   - `count_occurrences`: Counts the occurrences of a substring in a given string.
+   - `replace_first`: Replaces the first occurrence of a substring with another substring.
+   - `replace_all`: Replaces all occurrences of a substring with another substring.
+
+3. Splitting and Joining:
+   - `split_by_space`: Splits a string into a list of words using whitespace as the delimiter.
+   - `split_by_character`: Splits a string into a list of substrings based on a specific character.
+   - `join_with_space`: Joins a list of strings using a space as the delimiter.
+   - `join_with_character`: Joins a list of strings using a specific character as the delimiter.
+
+4. Case Conversion:
+   - `to_uppercase`: Converts a string to uppercase.
+   - `to_lowercase`: Converts a string to lowercase.
+
+5. Cleaning and Trimming:
+   - `remove_whitespace`: Removes all whitespace characters from a string.
+   - `trim`: Removes leading and trailing whitespace from a string.
+   - `remove_punctuation`: Removes all punctuation marks from a string.
+
+6. Miscellaneous Functions:
+   - `is_palindrome`: Checks if a string is a palindrome.
+   - `count_characters`: Counts the occurrences of a specific character in a string.
+   - `is_substring_available`: Checks if a substring is present in a string.
+   - `count_substring_occurrences`: Counts the occurrences of a substring in a string.
+   - `lower_bound`: Returns the lower bound index of a substring in a string.
+   - `upper_bound`: Returns the upper bound index of a substring in a string.
+   - `get_length`: Returns the length of a string.
+   - `get_word_extracted`: Extracts a specific word from a string.
+   - `is_alphanumeric`: Checks if a string contains only alphanumeric characters.
+   - `is_numeric`: Checks if a string is numeric.
+   - `get_frequency`: Returns the frequency of each character in a string.
+   - `reverse_text`: Reverses the characters in a string.
+   - `sub_string_conversion`: Converts a substring to a different case in a string.
 
 **Installation:**
 

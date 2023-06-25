@@ -1,0 +1,32 @@
+# __init__.py
+
+from .strkitN import (
+    capitalize_first,
+    snake_case,
+    camel_case,
+    count_occurrences,
+    replace_first,
+    replace_all,
+    split_by_space,
+    split_by_character,
+    join_with_space,
+    join_with_character,
+    to_uppercase,
+    to_lowercase,
+    remove_whitespace,
+    trim,
+    remove_punctuation,
+    is_palindrome,
+    count_characters,
+    is_substring_available,
+    count_substring_occurrences,
+    lower_bound,
+    upper_bound,
+    get_length,
+    get_word_extracted,
+    is_alphanumeric,
+    is_numeric,
+    get_frequency,
+    reverse_text,
+    sub_string_conversion
+)
